@@ -11,7 +11,7 @@ int main()
             x=b;
         else if(c>=a)
             x=a;
-        else if(c>=b && c>=a)
+        else if(c>=b && a>=c)
             x=c;
     }
     if(b>=c)
