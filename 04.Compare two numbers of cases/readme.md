@@ -18,19 +18,3 @@ a와 b가 같으면  = 를 출력한다.
 
 ## 출력예시
 <
-
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    int a, b;
-    scanf("%d %d", &a, &b);
-    if(a > b) {
-        printf(">");
-    } else if (a < b) {
-        printf("<");
-    } else {
-        printf("=");
-    }
-}
