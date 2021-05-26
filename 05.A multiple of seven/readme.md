@@ -24,36 +24,3 @@
 ## 출력 예시
 
 not multiple
-
-### 첫번째 코드
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    int a;
-    scanf("%d", &a);
-    if (a%7 = 0) {
-        printf("multiple");
-    } else {
-        printf("not multiple");
-    }
-}
-```
--if문에서 값이 똑같은지 확인하려면 =이 아니라 ==을 써야 한다.
-
-### 두번째 코드
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    int a;
-    scanf("%d", &a);
-    if (a%7 == 0) {
-        printf("multiple");
-    } else {
-        printf("not multiple");
-    }
-}
-```

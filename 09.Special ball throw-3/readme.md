@@ -38,39 +38,3 @@
 
 win
 
-### 첫번째 코드
-```c
-#include <stdio.h>
-
-int main() {
-    double a;
-    scanf("%lf", &a);
-    
-    if (a >= 50 && a <= 70 || a % 6 == 0) {
-        printf("win");
-    } else {
-        printf("lose");
-        
-    }
-    return 0;
-}
-```
-- and 부분에 괄호를 쳐서 먼저 계산이 되게 해야함.
-
-### 두번째 코드
-```c
-#include <stdio.h>
-
-int main() {
-    int a;
-    scanf("%d", &a);
-    
-    if ((a >= 50 && a <= 70) || a % 6 == 0) {
-        printf("win");
-    } else {
-        printf("lose");
-        
-    }
-    return 0;
-}
-```
